@@ -1,0 +1,22 @@
+*{
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: #666;
+  
+}
+
+  body{
+    min-height: 100vh;
+    font-family: sans-serif;
+    font-size: 14px;
+  }
+  header, footer {
+    background: black;
+    height: 7vh;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+  }

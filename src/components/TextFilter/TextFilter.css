@@ -1,0 +1,16 @@
+.TextFilter{
+    display: flex;
+    flex-direction: column;
+  }
+.BtnSection{
+    display: flex;
+    flex-direction: row;
+  }
+.FilterBtn:hover{
+    cursor: pointer;
+  }
+.FilterBtn{
+  padding: 0 10px 0 10px;
+  margin: 10px 10px 0 0;
+  height: 40px;
+  }
