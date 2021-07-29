@@ -1,16 +1,22 @@
-.TextFilter{
-    display: flex;
-    flex-direction: column;
-  }
-.BtnSection{
-    display: flex;
-    flex-direction: row;
-  }
-.FilterBtn:hover{
-    cursor: pointer;
-  }
-.FilterBtn{
+.textFilter {
+  display: flex;
+  flex-direction: column;
+}
+.textFilter_buttons {
+  display: flex;
+  flex-direction: row;
+}
+.textFilter_buttons_style:hover {
+  cursor: pointer;
+}
+.textFilter_buttons_style {
   padding: 0 10px 0 10px;
   margin: 10px 10px 0 0;
   height: 40px;
-  }
+}
+.textFilter_buttons_style_active {
+  background-color: #3498db;
+}
+.textFilter_buttons_style_inActive {
+  background-color: white;
+}

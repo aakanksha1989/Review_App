@@ -1,21 +1,8 @@
-.ReviewsContainer{
-    display: flex;
-    flex-direction: column;
+.reviews {
+  display: flex;
+  flex-direction: column;
 }
-.TotalResult{
-    display: flex;
-    flex-basis: 30%;
-    flex-direction: column;
-    padding: 60px 10px 0 10px;
-}
-.Ratings{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    flex-basis: 70%;
-}
-.ReviewHeading{
+.reviews_heading {
   flex-direction: row;
   display: flex;
   justify-content: center;
@@ -24,47 +11,70 @@
   font-size: 20px;
   padding: 5px 0px;
 }
-
-.ReviewBody{
-    flex-direction: row;
-    display: flex;
-    justify-content: center;
-    flex-basis: 100%;
+.reviews_body {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+  flex-basis: 100%;
 }
-.ReadMoreButton{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    border: none;
-    background: none;
-    color: #3498DB;
-    font-weight: bold;
-
+.reviews_body_left {
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: column;
+  padding: 60px 10px 0 10px;
 }
-.ReviewsList{
-    width: 95%;;
+.reviews_body_left_total {
+  text-align: center;
+  font-size: 16px;
 }
-.DropdownSection{
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    margin-right: 5%;
+.reviews_body_left_filter {
+  margin: 30px 0px 35px 0px;
 }
-
-.ButtonSection{
-    display: flex;
-    justify-content: flex-start;
-    width: 100%;
-    margin-left: 5%;
+.reviews_body_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-basis: 70%;
 }
-@media (max-width: 767px){
-     .Ratings{
-        flex-basis: 50%;
-    }
-    .TotalResult {
-        flex-basis: 50%;
-        padding: 10px 10px 10px 10px;
-    }
-    .ReviewBody{
-        flex-direction: column;
-    }
+.reviews_body_right_dropdown {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  margin-right: 5%;
+}
+.reviews_body_right_reviewList {
+  width: 95%;
+}
+.reviews_body_right_button {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: 5%;
+}
+.reviews_body_right_button-readMore {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: none;
+  background: none;
+  color: #3498db;
+  font-weight: bold;
+}
+.reviews_body_right_button-readMore_show {
+  display: block;
+}
+.reviews_body_right_button-readMore_hide {
+  display: none;
+}
+@media (max-width: 767px) {
+  .reviews_body_right {
+    flex-basis: 50%;
+  }
+  .reviews_body_left {
+    flex-basis: 50%;
+    padding: 10px 10px 10px 10px;
+  }
+  .reviews_body {
+    flex-direction: column;
+  }
 }

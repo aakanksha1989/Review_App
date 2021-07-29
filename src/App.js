@@ -1,17 +1,15 @@
 import React from 'react';
 
-import Reviews from "./components/Reviews/Reviews";
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
-    <div >
+    <div>
       <header>Adidas</header>
-        <Reviews />
+      <Reviews />
       <footer>www.adidas.com</footer>
     </div>
   );
 }
 
 export default App;
-
-

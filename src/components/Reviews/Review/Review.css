@@ -1,17 +1,17 @@
 .review {
-    width: 100%;
-    margin: auto;
-    border: 1px solid #eee;
-    box-shadow: 0 2px 3px #ccc;
-    padding: 10px;
-    text-align: left;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  padding: 10px;
+  text-align: left;
 }
-.review_title{
-    font-weight: bold;
-    color: #333;
-    padding-bottom: 3px;
+.review_title {
+  font-weight: bold;
+  color: #333;
+  padding-bottom: 3px;
 }
-.review_comments {
-    padding: 10px 0;
-    color: #666;
+.review_text {
+  padding: 10px 0;
+  color: #666;
 }
