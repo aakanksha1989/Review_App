@@ -45,6 +45,7 @@
 }
 .reviews_body_right_reviewList {
   width: 95%;
+  margin-bottom: 20px;
 }
 .reviews_body_right_button {
   display: flex;
@@ -54,7 +55,6 @@
 }
 .reviews_body_right_button-readMore {
   margin-bottom: 20px;
-  margin-top: 20px;
   border: none;
   background: none;
   color: #3498db;
